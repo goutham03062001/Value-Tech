@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react';
-import  profile from "../../Assets/profile-pic.png";
+// import  profile from "../../Assets/profile-pic.png";
 import secondProfile from "../../Assets/student.jpg"
 import Left from './Left';
 import Right from './Right';
