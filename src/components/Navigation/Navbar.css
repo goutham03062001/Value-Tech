@@ -1,0 +1,8 @@
+.navBarBackground{
+    background-color:#ab92ec;
+    opacity: 0.9;
+}
+
+.nav-link, .navbar-brand{
+    color:black ;
+}

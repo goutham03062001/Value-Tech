@@ -3,9 +3,6 @@
   padding:0;
   box-sizing: border-box;
   font-family: Arial;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
-body{
-  overflow-x: hidden;
-}

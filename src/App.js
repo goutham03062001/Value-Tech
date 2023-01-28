@@ -5,15 +5,19 @@ import WhoWeAre from './components/WhoWeAre/WhoWeAre';
 import Intro from './components/Intro/Intro';
 import Clients from './components/clients/Clients';
 import Glimpses from './components/Glimpses/Glimpses';
+import Navbar from './components/Navigation/Navbar';
+import Footer from "./components/Footer/Footer"
 const App = () => {
   return (
     <div>
+    <Navbar/>
     <Intro/>
      <WhoWeAre/>
      <Services/>
      <Clients/>
      <Glimpses/>
      <Contact/>
+     <Footer/>
     </div>
   )
 }
