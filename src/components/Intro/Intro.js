@@ -2,6 +2,9 @@ import React,{ useEffect } from "react";
 import "./intro.css";
 import welcomeImage from "../../Assets/welcomeImage.png";
 import AOS from "aos";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import PeopleIcon from '@mui/icons-material/People';
+import ArticleIcon from '@mui/icons-material/Article';
 const Intro = () => {
   useEffect(() => {
     AOS.init({
@@ -37,9 +40,9 @@ const Intro = () => {
               nulla pariatur.
             </p>
             <div className="intro_btns">
-              <button className="btn btn-dark btn-sm">View our blogs</button>
-              <button className="btn btn-warning btn-sm">Our Community</button>
-              <button className="btn btn-info btn-sm">Follow GitHub</button>
+              <button className="btn btn-dark btn-sm">View our blogs &nbsp; <ArticleIcon/></button>
+              <button className="btn btn-warning btn-sm">Our Community &nbsp; <PeopleIcon/></button>
+              <button className="btn btn-info btn-sm">Follow GitHub &nbsp; <GitHubIcon/></button>
             </div>
             </div>
 
