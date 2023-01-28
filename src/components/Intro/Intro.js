@@ -16,7 +16,7 @@ const Intro = () => {
         <div className="row">
           <div className="col-lg-6 col-12 col-sm-11 col-md-6 my-3">
             <h3 className="text text-center text-muted py-5 brand " data-aos="fade-up">
-              Welcome To TechBlocks
+              Welcome To ValueTech
             </h3>
             <img
               src={welcomeImage}
