@@ -11,20 +11,28 @@ const Card = ({obj}) => {
     },[])
     var isBootstrapCard = true;
   return (
-    <div className={isBootstrapCard ? "card my-1 p-2" : styles.card}
-    data-aos = "fade-up">
+   <>
+
+   
+     <div className={isBootstrapCard ? "card my-1 p-2 services_card" : styles.card}
+    data-aos = "fade-up" style={{width:"22rem", height:"99%"}}>
+       <img src={obj.img} alt={`${obj.img}`} className="card-img-top card_img"/>
         <div className="card-body">
+            
             <div className='card-description'>
-                <p className='text text-muted'>{obj.title}</p>
-                <p className='text text-muted'>{obj.desc}</p>
+                <p className='text text-bold'>{obj.title}</p>
+                <p className='text text-muted service_desc'>{obj.desc}</p>
             </div>
             <div className="">
-                <button className='btn btn-sm btn-warning'>
+                <button className='btn btn-md btn-warning'>
                    View more
                 </button>
             </div>  
         </div>
-    </div>  
+    </div>   
+
+    
+   </>
   )
 }
 

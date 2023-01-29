@@ -17,22 +17,30 @@ const Footer = () => {
         </div>
         <div className="col-lg-4 col-12 col-sm-12 col-md-4">
 
-        <h5 className="text text-success">More From Us</h5>
+          <ul>
+          <h5 className="text text-success">More From Us</h5>
 
           <li className="nav nav-item my-3">blogs</li>
           <li className="nav nav-item my-3">community</li>
           <li className="nav nav-item my-3">achievements</li>
+          </ul>
+
         </div>
         <div className="col-lg-4 col-12 col-sm-12 col-md-4">
-        <h5 className="text text-success">Let's Connect</h5>
+            <ul>
+            <h5 className="text text-success">Let's Connect</h5>
 
-          <li className="nav nav-item my-3">About </li>
-          <li className="nav nav-item my-3">Contact </li>
-          <li className="nav nav-item my-3">Email </li>
+            <li className="nav nav-item my-3">About </li>
+            <li className="nav nav-item my-3">Contact </li>
+            <li className="nav nav-item my-3">Email </li>
+            </ul>
         </div>
         
       </div>
-      <p className="text text-center my-3">Designed and developed by ValueTech &copy; 2023</p>
+        
+        <p className="text text-center my-3">Designed and developed by ValueTech &copy; 2023</p>
+       
+        
         </div>
       </div>
     </>

@@ -44,7 +44,7 @@
     font-family: cursive;
 }
 
-@media only screen and (max-width:370px){
+@media only screen and (max-width:400px){
     .intro_btns{
         height:30vh;
         margin-top:10%;
