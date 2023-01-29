@@ -14,13 +14,27 @@
 }
 
 @media only screen and (max-width:400px){
+    .service_row_card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
    .services_card{
-    width:22rem !important;
+
+    width:20rem !important;
    }
 }
 
 @media only screen and (max-width:360px){
+    .service_row_card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .services_card{
-        width:20rem !important;
+        width:18rem !important;
     }
 }
+

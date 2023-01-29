@@ -41,7 +41,7 @@ const Services = () => {
     ]
   return (
     <div className="container services_ctn my-5">
-        <div className='row  py-5'>
+        <div className='row  py-5 service_row_card'>
             <h3 className='text text-center text-muted my-5' data-aos = "fade-up">OUR SERVICES</h3>
 
                 {
