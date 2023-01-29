@@ -20,7 +20,7 @@ const Glimpses = () => {
             <div className='col-lg-4 col-6 col-sm-6 col-md-6 mt-1'>
             <div className='card' data-aos="zoom-out">
                 <img src={FirstImage} className="img img-fluid glimp_img w-100 h-50" alt="first"/>
-                <p className='image_caption'>First Image</p>
+                
             </div>
             </div>
             <div className='col-lg-4 col-6 col-sm-6 col-md-6 mt-1' data-aos="zoom-out">

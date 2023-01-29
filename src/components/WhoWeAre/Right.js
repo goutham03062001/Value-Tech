@@ -8,7 +8,7 @@ const Right = ({profile}) => {
     })
   },[])
   return (
-    <div className="col-lg-6" data-aos="zoom-up">
+    <div className="col-lg-6 my-3" data-aos="zoom-up">
       <div className="card">
         <div className="card-body">
           <img

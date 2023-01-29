@@ -2,7 +2,7 @@ import React from 'react'
 import "./Navbar.css";
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navBarBackground">
+    <nav class="navbar navbar-expand-lg navBarBackground fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#!">ValueTech</a>
     <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

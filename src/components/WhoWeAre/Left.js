@@ -9,7 +9,7 @@ const Left = () => {
     })
   },[]);
   return (
-    <div className="card" data-aos="zoom-in-up">
+    <div className="card my-3" data-aos="zoom-in-up">
       <div className="card-body">
         <p className="text text-muted text-justify company_desc px-3">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

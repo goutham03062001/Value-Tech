@@ -12,7 +12,7 @@ const WhoWeAre = () => {
         })
     },[]);
   return (
-    <div className='container my-5 who_we_are_ctn'>
+    <div className='container my-5 who_we_are_ctn '>
         <div className='row py-5'>
         <h3 className='text text-center text-muted my-5 our-clients' data-aos="fade-up">WHO WE ARE </h3>
             <div className='col-lg-6 col-12 col-sm-12 col-md-6'>

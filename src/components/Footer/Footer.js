@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="jumbotron bg-dark text-white py-3">
+      <div className="jumbotron bg-dark text-white py-3 footer">
         <div className="container">
         <div className="footer_background"></div>
         <div className="row my-5">

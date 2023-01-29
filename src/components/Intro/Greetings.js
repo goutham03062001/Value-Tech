@@ -3,7 +3,7 @@ import "./Greetings.css";
 const Greetings = () => {
   return (
     <>
-        <p className='greetings text text-center'>Welcome to Value Tech</p>
+        <p className='greetings text text-center mt-5'>Welcome to Value Tech</p>
     
     </>
 
