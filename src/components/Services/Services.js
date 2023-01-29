@@ -47,7 +47,7 @@ const Services = () => {
                 {
                     data.map(ele =>(
                         <>
-                            <div className="col-lg-4 mt-5">
+                            <div className="col-lg-4 mt-5 col-10 col-sm-10 col-md-4 col-xl-4">
                             <Card obj = {ele} />
                             </div>
                         </>
