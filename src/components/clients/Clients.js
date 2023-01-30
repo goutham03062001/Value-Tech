@@ -17,7 +17,7 @@ const Clients = () => {
       <div className="row py-1">
         <h3 className="text text-center text-muted my-5" id= "our-clients" data-aos="fade-up" data-aos-anchor-placement="top-bottom">OUR CLIENTS</h3>
         <div className="row">
-          <div className="col-lg-3 col-sm-10 col-md-4 my-5 mobile_clients" data-aos="fade-up">
+          <div className="col-lg-4 col-sm-10 col-6 col-md-4 my-5 mobile_clients" data-aos="fade-up">
             <div className="card client">
               <div className="card-inner">
                 <p className="text text-muted">Zomato</p>
@@ -31,7 +31,7 @@ const Clients = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-sm-10 col-md-4 my-5 mobile_clients" data-aos="fade-up">
+          <div className="col-lg-4 col-sm-10 col-md-4 my-5 mobile_clients" data-aos="fade-up">
             <div className="card client">
               <div className="card-inner">
                 <p className="text text-muted">swiggy</p>
@@ -45,7 +45,7 @@ const Clients = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-sm-10 col-md-4 my-5 mobile_clients" data-aos="fade-up">
+          <div className="col-lg-4 col-sm-10 col-md-4 my-5 mobile_clients" data-aos="fade-up">
             <div className="card client">
               <div className="card-inner">
                 <p className="text text-muted">cmrcet</p>
@@ -59,7 +59,7 @@ const Clients = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-sm-10 col-md-4 my-5 mobile_clients" data-aos="fade-up">
+          <div className="col-lg-4 col-sm-10 col-md-4 my-5 mobile_clients" data-aos="fade-up">
             <div className="card client">
               <div className="card-inner">
                 <p className="text text-muted">microsoft</p>

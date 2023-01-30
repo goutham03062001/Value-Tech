@@ -15,28 +15,28 @@ const Services = () => {
     const data = [
         {
             title : "Web Development",
-            desc : "At Value Tech, we provide the complete web development for the educational academics such as colleges and schools . It includes ...",
+            // desc : "At Value Tech, we provide the complete web development for the educational academics such as colleges and schools . It includes ...",
             img : WebDev
         },
         {
             title:"App Development",
             img : AppDev,
-            desc : "We develop the mobile apps for the schools and colleges to bring their entire system into online. Using our apps they can turn their institute ..."
+            // desc : "We develop the mobile apps for the schools and colleges to bring their entire system into online. Using our apps they can turn their institute ..."
         },
         {
             title : "Graphic Design",
             img : GraphicDesign,
-            desc : "At Value Tech, we take care of your organization development and support. We help you to create modern posters , banners and logos. "
+            // desc : "At Value Tech, we take care of your organization development and support. We help you to create modern posters , banners and logos. "
         },
         {
-            title:"IOT",
+            title:"Internet Of Things",
             img : IOT,
-            desc : "Bringing every possible electronic gadget on to IOT is our vision. At Value Tech , we helps organization to monitor their parameters in cloud."
+            // desc : "Bringing every possible electronic gadget on to IOT is our vision. At Value Tech , we helps organization to monitor their parameters in cloud."
         },
         {
             title : "Technical Support",
             img : TechnicalSupport,
-            desc  : "Value Tech takes care about your organization technical issues and provides constant support. A lot of support roles are there …"
+            // desc  : "Value Tech takes care about your organization technical issues and provides constant support. A lot of support roles are there …"
         }
     ]
   return (
@@ -47,7 +47,7 @@ const Services = () => {
                 {
                     data.map(ele =>(
                         <>
-                            <div className="col-lg-4 mt-5 col-10 col-sm-10 col-md-4 col-xl-4">
+                            <div className="col-lg-4 mt-5 col-10 col-sm-12 col-md-4 col-xl-4">
                             <Card obj = {ele} />
                             </div>
                         </>

@@ -42,9 +42,9 @@ const Intro = () => {
               nulla pariatur.
             </p>
             <div className="intro_btns">
-              <button className="btn btn-dark btn-sm" data-aos="fade-up">View our blogs &nbsp; <ArticleIcon/></button>
-              <button className="btn btn-warning btn-sm" data-aos="fade-up">Our Community &nbsp; <PeopleIcon/></button>
-              <button className="btn btn-info btn-sm" data-aos="fade-up">Follow GitHub &nbsp; <GitHubIcon/></button>
+              <button className="btn btn-dark btn-sm into_social_btn" data-aos="fade-up">View our blogs &nbsp; <ArticleIcon/></button>
+              <button className="btn btn-warning btn-sm into_social_btn" data-aos="fade-up">Our Community &nbsp; <PeopleIcon/></button>
+              <button className="btn btn-info btn-sm into_social_btn" data-aos="fade-up">Follow GitHub &nbsp; <GitHubIcon/></button>
             </div>
             </div>
 

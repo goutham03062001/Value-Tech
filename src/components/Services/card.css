@@ -13,19 +13,31 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; ;
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:600px){
     .service_row_card{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width:60vh;
+        /* height: 100%; */
     }
    .services_card{
-
-    width:20rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:19rem !important;
+    /* width:20rem !important; */
+    /* height:100%; */
+   }
+   .view_more_btn{
+    color:white;
+    width:30vh;
+    background-color: black;
    }
 }
-
+/* 
 @media only screen and (max-width:360px){
     .service_row_card{
         display: flex;
@@ -36,5 +48,5 @@
     .services_card{
         width:18rem !important;
     }
-}
+} */
 

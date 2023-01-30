@@ -46,12 +46,12 @@
 @media only screen and (min-width:768px){
     .intro_btns{
     /* background-color: red; */
-    height:30vh;
+    /* height:30vh; */
         margin-top:10%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        gap:30px;
+        /* gap:30px; */
         align-items: center;
         width:99%;
     }
@@ -68,7 +68,7 @@
         align-items: center;
         width:99%;
     }
-    .btn{
+    .into_social_btn{
         width:85%;
         height:5vh;
     }
