@@ -16,7 +16,7 @@ const LandingPage = () => {
      <WhoWeAre/>
      <Services/>
      <Clients/>
-     <Glimpses/>
+     {/* <Glimpses/> */}
      <Contact/>
      
     </div>

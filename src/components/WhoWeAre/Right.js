@@ -8,16 +8,17 @@ const Right = ({profile}) => {
     })
   },[])
   return (
-    <div className="col-lg-6 my-3" data-aos="zoom-up">
+    <div className="col-lg-8  my-3" data-aos="zoom-up">
       <div className="card">
         <div className="card-body">
           <img
             src={profile}
             className="img img-fluid h-50"
             alt="profile"
+           
           />
           <p className="text text-muted  my-1 p-2">
-            some description about the founder
+            Goutham | Founder
           </p>
         </div>
       </div>

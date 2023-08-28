@@ -2,7 +2,32 @@
     width:100vw;
     height: 100vh;
 } */
-
+.intro{
+    width:100vw;
+    height:100vh;
+    /* margin-top:80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    background-color:"#F4EEEE";
+}
+.title{
+    font-size: 35px;
+}
+.downarrow{
+    position: relative;
+   animation-name: mymove;
+   animation-timing-function: ease-in;
+   animation-duration: 2s;
+   animation-direction: normal;
+   animation-iteration-count: infinite;
+}
+@keyframes mymove {
+    from{ top:0px}
+    to{top:25px}
+}
 .intro_background{
     width:100vw;
     height:40vh;
@@ -55,9 +80,35 @@
         align-items: center;
         width:99%;
     }
-   
+    .intro{
+        width:100vw;
+        height:60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        margin-top: 100px;
+    }
 }
 @media only screen and (max-width:400px){
+    .title{
+        font-size: 25px;
+    }
+    .tagline{
+        font-size: 10px;
+    }
+
+    .intro{
+        width:100vw;
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        /* word-spacing: 1px; */
+        font-size: 15px;
+    }
+    
     .intro_btns{
         height:30vh;
         margin-top:10%;

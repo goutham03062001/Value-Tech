@@ -23,9 +23,7 @@ const Card = ({obj}) => {
             </div>
             
             <div>
-            <button className='btn btn-md btn-outline-warning view_more_btn w-100'>
-                   View more
-                </button>
+            
             </div>
              
         </div>

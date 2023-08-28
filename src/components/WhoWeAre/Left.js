@@ -9,17 +9,14 @@ const Left = () => {
     })
   },[]);
   return (
-    <div className="card my-3" data-aos="zoom-in-up">
-      <div className="card-body">
+    <div className=" my-3" data-aos="zoom-in-up">
+      <div className="">
         <p className="text text-muted text-justify company_desc px-3">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          At Xenicx, We Offer Educational Products along with Software Courses. We develope Apps, Websites for Schools and Colleges.
+          We are offering Software Training for Graduation level students. Xenicx also motivated to teach every academic concepts very clearly with animations and 3D renderings.
         </p>
         <div className="quick_links">
-        <button className="btn btn-md btn-primary px-5">Quick Links</button>
+        {/* <button className="btn btn-md btn-primary px-5">Quick Links</button> */}
         </div>
         
       </div>

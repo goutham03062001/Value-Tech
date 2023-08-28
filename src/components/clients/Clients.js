@@ -20,13 +20,8 @@ const Clients = () => {
           <div className="col-lg-4 col-sm-10 col-6 col-md-4 my-5 mobile_clients" data-aos="fade-up">
             <div className="card client">
               <div className="card-inner">
-                <p className="text text-muted">Zomato</p>
-
-                <img
-                  src={zomato}
-                  className="img img-fluid client_img"
-                  alt="zomato"
-                />
+                <p className="text text-muted">Triveni High School</p>
+               
               </div>
             </div>
           </div>
@@ -34,13 +29,8 @@ const Clients = () => {
           <div className="col-lg-4 col-sm-10 col-md-4 my-5 mobile_clients" data-aos="fade-up">
             <div className="card client">
               <div className="card-inner">
-                <p className="text text-muted">swiggy</p>
+                <p className="text text-muted">Ravindra Bharathi High School</p>
 
-                <img
-                  src={swiggy}
-                  className="img img-fluid client_img"
-                  alt="zomato"
-                />
               </div>
             </div>
           </div>
@@ -48,13 +38,9 @@ const Clients = () => {
           <div className="col-lg-4 col-sm-10 col-md-4 my-5 mobile_clients" data-aos="fade-up">
             <div className="card client">
               <div className="card-inner">
-                <p className="text text-muted">cmrcet</p>
+                <p className="text text-muted">SPRK High School</p>
 
-                <img
-                  src={cmrcet}
-                  className="img img-fluid client_img"
-                  alt="zomato"
-                />
+              
               </div>
             </div>
           </div>
@@ -62,13 +48,9 @@ const Clients = () => {
           <div className="col-lg-4 col-sm-10 col-md-4 my-5 mobile_clients" data-aos="fade-up">
             <div className="card client">
               <div className="card-inner">
-                <p className="text text-muted">microsoft</p>
+                <p className="text text-muted">Spring Fields High School</p>
 
-                <img
-                  src={microsoft}
-                  className="img img-fluid client_img"
-                  alt="zomato"
-                />
+              
               </div>
             </div>
           </div>
