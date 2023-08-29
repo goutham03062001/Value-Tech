@@ -1,7 +1,6 @@
 import React,{ useEffect } from "react";
 import "./intro.css";
-import welcomeImage from "../../Assets/welcomeImage.png";
-import Greetings from "./Greetings";
+
 import AOS from "aos";
 import DownArrow from "../../Assets/DownArrow.png"
 const Intro = () => {

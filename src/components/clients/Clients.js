@@ -1,8 +1,5 @@
 import React, {useEffect} from "react";
-import zomato from "../../Assets/zomato.jpeg";
-import swiggy from "../../Assets/swiggy.jpeg";
-import cmrcet from "../../Assets/cmrcet.jpg";
-import microsoft from "../../Assets/microsoft.jpeg";
+
 import "./clients.css";
 import Aos from "aos";
 const Clients = () => {

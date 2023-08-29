@@ -1,4 +1,3 @@
-import { Card } from "antd";
 import React from "react";
 import styles from "./Dashboard.module.css";
 import "./Dashboard.css";
