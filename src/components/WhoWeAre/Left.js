@@ -11,7 +11,7 @@ const Left = () => {
   return (
     <div className=" my-3" data-aos="zoom-in-up">
       <div className="">
-        <p className="text text-muted text-justify company_desc px-3">
+        <p className="text text-muted text-justify company_desc px-3" style={{lineHeight:'50px',wordSpacing:"6px",fontSize:"20px"}}>
           At Xenicx, We Offer Educational Products along with Software Courses. We develope Apps, Websites for Schools and Colleges.
           We are offering Software Training for Graduation level students. Xenicx also motivated to teach every academic concepts very clearly with animations and 3D renderings.
         </p>
