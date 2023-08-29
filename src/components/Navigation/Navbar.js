@@ -2,30 +2,23 @@ import React from 'react'
 import "./Navbar.css";
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navBarBackground fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#!">Xenicx</a>
-    <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-lg navBarBackground fixed-top">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#!">Xenicx</a>
+    <button className="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse " id="navbarNavDropdown">
-      <ul class="navbar-nav innerNavBar">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#!">Home</a>
+    <div className="collapse navbar-collapse " id="navbarNavDropdown">
+      <ul className="navbar-nav innerNavBar">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#!">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#!">Features</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#!">Features</a>
         </li>
        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-            Services
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#!">Apps</a></li>
-            <li><a class="dropdown-item" href="#!">Websites</a></li>
-            <li><a class="dropdown-item" href="#!">Software Training</a></li>
-          </ul>
+        <li className="nav-item">
+          <a className="nav-link" href="#!">Services</a>
         </li>
       </ul>
     </div>
